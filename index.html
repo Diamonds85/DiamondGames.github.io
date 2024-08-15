@@ -1,1 +1,37 @@
-<p>this is a new little site</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increment Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #count {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="count">0</div>
+    <button onclick="incrementCount()">Click me!</button>
+
+    <script>
+        let count = 0;
+
+        function incrementCount() {
+            count++;
+            document.getElementById('count').textContent = count;
+        }
+    </script>
+</body>
+</html>
+
