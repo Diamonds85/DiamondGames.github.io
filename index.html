@@ -3,35 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Increment Button</title>
+    <title>Leaderboard</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
+            background-color: #f0f8ff;
         }
-        #count {
-            font-size: 2em;
+        #leaderboard {
             margin-bottom: 20px;
+        }
+        .player {
+            font-size: 1.5em;
+            margin: 10px 0;
         }
         button {
             font-size: 1.2em;
             padding: 10px 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <div id="count">0</div>
-    <button onclick="incrementCount()">Click me!</button>
+    <h1>Leaderboard</h1>
+    <div id="leaderboard">
+        <div class="player" id="player1">Player 1: <span id="score1">0</span></div>
+        <div class="player" id="player2">Player 2: <span id="score2">0</span></div>
+    </div>
+    <button onclick="incrementScore('score1')">Increase Player 1's Score</button>
+    <button onclick="incrementScore('score2')">Increase Player 2's Score</button>
 
     <script>
-        let count = 0;
-
-        function incrementCount() {
-            count++;
-            document.getElementById('count').textContent = count;
+        function incrementScore(playerId) {
+            let scoreElement = document.getElementById(playerId);
+            let currentScore = parseInt(scoreElement.textContent, 10);
+            scoreElement.textContent = currentScore + 1;
         }
     </script>
 </body>
 </html>
-
