@@ -16,9 +16,9 @@
     document.body.appendChild(renderer.domElement);
     
     // Object creation (a cube)
-    var geometry = new THREE.BoxGeometry();
-    var material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-    var cube = new THREE.Mesh(geometry, material);
+    var geometry = new THREE.SphereGeometry();
+    var material = new THREE.MeshBasicMaterial({ color: 0xffffff });
+    var object1 = new THREE.Mesh(geometry, material);
     scene.add(cube);
     
     // Camera position
