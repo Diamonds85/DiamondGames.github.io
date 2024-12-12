@@ -1,12 +1,12 @@
 const fonts = [
-  "customTitleChanger1",
-  "customTitleChanger2",
-  "customTitleChanger3",
-  "customTitleChanger4",
-  "customTitleChanger5",
-  "customTitleChanger6",
-  "customTitleChanger7",
-  "customTitleChanger8"
+  "customTitleSwitcher1",
+  "customTitleSwitcher2",
+  "customTitleSwitcher3",
+  "customTitleSwitcher4",
+  "customTitleSwitcher5",
+  "customTitleSwitcher6",
+  "customTitleSwitcher7",
+  "customTitleSwitcher8"
 ];
 
 let fontIndex = 0

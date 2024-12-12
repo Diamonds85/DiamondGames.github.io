@@ -10,40 +10,40 @@
 
 @font-face {
     font-family: 'customTitleSwitcher1';
-    src: url(assets/fonts/Barriecito/Barriecito-Regular.ttf) format('TrueType');
+    src: url(assets/fonts/Barriecito/Barriecito-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'customTitleSwitcher2';
-    src: url(assets/fonts/Black_Ops_One/BlackOpsOne-Regular.ttf) format('TrueType');
+    src: url(assets/fonts/Black_Ops_One/BlackOpsOne-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'customTitleSwitcher3';
-    src: url(assets/fonts/DM_Serif_Text/DMSerifText-Regular.ttf) format('TrueType');
+    src: url(assets/fonts/DM_Serif_Text/DMSerifText-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'customTitleSwitcher4';
-    src: url(assets/fonts/Italianno/Italianno-Regular.ttf) format('TrueType');
+    src: url(assets/fonts/Italianno/Italianno-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'customTitleSwitcher5';
-    src: url(assets/fonts/Orbitron/static/Orbitron-Regular.ttf) format('TrueType');
+    src: url(assets/fonts/Orbitron/static/Orbitron-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'customTitleSwitcher6';
-    src: url(assets/fonts/Playwrite_IT_Trad/static/PlaywriteITTrad-Regular.ttf) format('TrueType');
+    src: url(assets/fonts/Playwrite_IT_Trad/static/PlaywriteITTrad-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'customTitleSwitcher7';
-    src: url(assets/fonts/Tourney/static/Tourney-Regular.ttf) format('TrueType');
+    src: url(assets/fonts/Tourney/static/Tourney-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'customTitleSwitcher8';
-    src: url(assets/fonts/Doto/static/Doto-Regular.ttf) format('TrueType');
+    src: url(assets/fonts/Doto/static/Doto-Regular.ttf) format('truetype');
 }
