@@ -2,9 +2,9 @@
     --dynamic-font: 'Arial, sans-serif'; /* Default font */
 }
 
-.fontchanger {
+.changingFont {
     font-family: var(--dynamic-font);
-    font-size: 2rem;
+    font-size: 20px;
     transition: font-family 0.25s ease;
 }
 
