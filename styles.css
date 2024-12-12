@@ -4,7 +4,7 @@
 
 .changingFont {
     font-family: var(--dynamic-font);
-    font-size: 2rem;
+    font-size: 20px;
     transition: font-family 0.5s ease;
 }
 
