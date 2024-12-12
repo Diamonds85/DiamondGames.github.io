@@ -1,10 +1,10 @@
 :root {
-    --dynamic-font: 'Arial, sans-serif'; /* Default font */
+    --dynamic-font: 'Arial, sans-serif'; /* default font */
 }
 
 .changingFont {
     font-family: var(--dynamic-font);
-    font-size: 20px;
+    font-size: 2rem;
     transition: font-family 0.5s ease;
 }
 
