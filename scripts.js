@@ -17,4 +17,6 @@ function updateFont() {
     fontIndex = (fontIndex + 1) % fonts.length; // Cycle to the next font
 }
 
+updateFont(); /*get rid of the default IMMEDIATELY*/
+
 setInterval(updateFont, 2000);
