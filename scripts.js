@@ -13,8 +13,8 @@ let fontIndex = 0
 
 function updateFont() {
     // Update the CSS variable
-    document.documentElement.style.setProperty('--dynamic-font', fonts[currentFontIndex]);
-    currentFontIndex = (currentFontIndex + 1) % fonts.length; // Cycle to the next font
+    document.documentElement.style.setProperty('--dynamic-font', fonts[fontIndex]);
+    fontIndex = (fontIndex + 1) % fonts.length; // Cycle to the next font
 }
 
 setInterval(updateFont, 2000);
